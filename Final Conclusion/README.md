@@ -1804,33 +1804,10 @@ A testbench generally contains:
 - Simulation control
 - VCD generation
 
-
-```
-
----
-<img width="1917" height="946" alt="Screenshot 2026-08-24 174709" src="https://github.com/user-attachments/assets/9e403811-15b7-463f-b279-876163df552f" />
+<img width="1917" height="951" alt="Screenshot 2026-08-24 171615" src="https://github.com/user-attachments/assets/ba10893f-4fc9-4c51-ac61-c4107ea79ed7" />
 
 
----
-
-#  Icarus Verilog
-
-Icarus Verilog is an open-source Verilog simulator.
-
-Basic simulation flow:
-
-```text
-Verilog Design
-      +
-Testbench
-      ↓
-Icarus Verilog
-      ↓
-VCD File
-
-# VSDBabySoC Pre-Synthesis Simulation
-
-## Introduction
+## Introduction(vsdbabysoc)
 
 **VSDBabySoC** is a small System-on-Chip based on a **RISC-V processor**. It integrates digital processing with **PLL** and **DAC** blocks.
 
@@ -1879,10 +1856,6 @@ GTKWave
 Waveform Verification
       ↓
 Logic Synthesis
-
-
-      ↓
-GTKWave
 ```
 <img width="1919" height="1079" alt="Screenshot 2026-08-22 152115" src="https://github.com/user-attachments/assets/d6634ce1-8de2-4e32-8d81-b44457c9554d" />
 ## Conclusion
